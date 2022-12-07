@@ -1,0 +1,83 @@
+.fas{
+}
+
+.ee{
+  display: block;
+  padding-top: 30px;
+  border-bottom: solid 1px blue;
+}
+
+.ee input{
+  width: 90%;
+  height: 25px;
+  border: none;
+  background: none;
+}
+
+.ee input::placeholder{
+  margin-left: 10px;
+}
+
+.ee input:focus{
+  outline: none;
+}
+
+.name1m{
+  padding-top: 25px;
+}
+
+.name1{
+  display: inline;
+  margin-top: 25px;
+}
+
+.name1 input{
+  width: 49%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: solid 1px blue;
+  background: none;
+  height: 22px;
+}
+
+.name1 input::placeholder{
+  padding-left: 10px;
+  height: 20px;
+}
+
+.name1 input:focus{
+  outline: none;
+  background: none;
+  padding-left: 1px;
+}
+
+.ngo{
+  width: 100%;
+}
+
+.em1 .cat{
+  display: flex;
+  height: 25px;
+  font-size: 20px;
+}
+
+.iname{
+  width: 100%;
+  border-bottom: solid 1px blue;
+  padding-top: 25px;
+}
+
+.iname input{
+  background: none;
+  border: none;
+  padding-left: 10px;
+  padding-bottom: 3px;
+}
+
+.iname::placeholder{
+}
+
+.iname input:focus{
+  outline: none;
+}

@@ -1,0 +1,30 @@
+#aboutus{
+    display : flex;
+    flex-direction: column;
+    padding : 3px 200px;
+    height : 600px;
+    justify-content  : center;
+    align-items: center;
+}
+#aboutus::before{
+    content : "";
+    background:url(../bg1.png) no-repeat center center/cover;
+    position : absolute ;
+    height : 122%;
+    width : 100%;
+    z-index : -1;
+    opacity : 0.4;
+}
+
+#aboutus h1{
+    color : black;
+    text-align :center;
+    font-size : 4rem;
+    font-family: "Trirong", serif;
+}
+#aboutus p{
+    color : black;
+    text-align :center;
+    font-size : 1.4rem;
+    font-family: "Trirong", serif;
+}

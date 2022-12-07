@@ -1,0 +1,41 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+#ourmission::before{
+    content : "";
+    background:url(../mission.jpeg) no-repeat center center/cover;
+    position : absolute ;
+    height : 110%;
+    width : 100%;
+    z-index : -1;
+    opacity : 0.35;
+}
+#ourmission{
+    PADDING : 0px;
+    margin : 0px;
+    display : flex;
+}
+#ourmission .box{
+    text-align: center;
+    border : 2px solid green;
+    padding: 70px;
+    margin: 72px 50px;
+    margin-bottom: 11px;
+}
+#ourmission.box {
+    height : 100px;
+    margin: auto;
+   display: block;
+} 
+.h-primary{
+    font-size : 3.8rem;
+    padding : 0px;
+    text-align: center;
+    margin: 4px ;
+}
+.h-secondary{
+    font-size : 2.8rem;
+    padding : 12px;
+    text-align: center;
+}
